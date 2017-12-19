@@ -37,3 +37,8 @@ Ul.header li a {
 .active {
   background-color: #0099FF;
 }
+
+.card-image{
+  width: 50px;
+
+}

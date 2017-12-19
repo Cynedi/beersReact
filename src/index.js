@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import Api from './Malt';
+import Blond from './Blond';
+import Amber from './Amber';
+import Brown from './Brown';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 

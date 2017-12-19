@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import Api from "./Api";
-import Malt from "./Malt";
-import Name from "./Name";
-import Auther from "./Auther";
+import Blond from "./Blond";
+import Amber from "./Amber";
+import Brown from "./Brown";
 import logo from './logo.svg';
 import './App.css';
+import './index.css';
 import {
   Route,
   NavLink,
@@ -21,14 +21,14 @@ class App extends Component {
         <div>
           <h1>BEERS WEB</h1>
           <ul className="header">
-            <li><NavLink exact to="/">By malt</NavLink></li>
-            <li><NavLink to="/stuff">By Name</NavLink></li>
-            <li><NavLink to="/contact">Auther</NavLink></li>
+            <li><NavLink exact to="/">Blond Beers</NavLink></li>
+            <li><NavLink to="/Amber">Amber Beers</NavLink></li>
+            <li><NavLink to="/Brown">Brown Beers</NavLink></li>
           </ul>
           <div className="content">
-            <Route exact path="/" component={Malt}/>
-            <Route path="/stuff" component={Name}/>
-            <Route path="/contact" component={Auther}/>
+            <Route exact path="/" component={Blond}/>
+            <Route path="/Amber" component={Amber}/>
+            <Route path="/Brown" component={Brown}/>
           </div>
         </div>
       </HashRouter>
