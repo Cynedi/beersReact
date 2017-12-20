@@ -1,20 +1,20 @@
-body {
-  background-color: #FFCC00;
-  padding: 20px;
-  margin: 0;
-}
+
+
 H1, h2, p, ul, li {
   font-family: sans-serif;
 }
+
 Ul.header li {
   display: inline;
   liste-style-type: none;
   margin: 0;
 }
+
 Ul.header {
   background-color: #111;
   padding: 0;
 }
+
 Ul.header li a {
   color: #FFF;
   font-weight: bold;
@@ -22,14 +22,13 @@ Ul.header li a {
   padding: 20px;
   display: inline-block;
 }
+
 .content {
   background-color: #FFF;
   padding: 20px;
 }
-.content h2 {
-  padding: 0;
-  margin: 0;
-}
+
+
 .content li {
   margin-bottom: 10px;
 }
@@ -38,7 +37,55 @@ Ul.header li a {
   background-color: #0099FF;
 }
 
-.card-image{
-  width: 50px;
+.card-image {
+  width: 90px;
+}
 
+body {
+  background-image: url("./beers1.jpg");
+  background-color: rgb(223, 135, 2);
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-size: 150px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Risque', cursive;
+  font-size: 70px;
+}
+
+.content {
+  background-color: transparent;
+}
+
+.card{
+  background-color: transparent;
+}
+
+.card-image {
+display: flex;
+margin: auto;
+
+}
+.header {
+  width: 100vw;
+}
+
+.active {
+  background-color: rgb(223, 135, 2);
+}
+
+.card-content li {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.card-content{
+  margin: 0 80px 0 80px;
 }

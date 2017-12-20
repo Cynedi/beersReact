@@ -27,7 +27,7 @@ class Amber extends React.Component {
 
           {items.map(item => (
             <article key={item}>
-              <h2 class="header">{item.name}</h2>
+              <h2 class="header">-{item.name}-</h2>
 
               <div class="card horizontal">
 
@@ -37,11 +37,11 @@ class Amber extends React.Component {
 
                 <div class="card-stacked">
                   <ul class="card-content">
-                    <li>First brewed:{item.first_brewed}</li>
-                    <li>Brewers tips:{item.brewers_tips}</li>
-                    <li>Betterness:{item.ibu}</li>
-                      <li>Alcool by volume: {item.abv}</li>
-                    <li>Description:{item.description}</li>
+                    <li>First brewed:</li>{item.first_brewed}
+                    <li>Brewers tips:</li>{item.brewers_tips}
+                    <li>Betterness:</li>{item.ibu}
+                      <li>Alcool by volume:</li> {item.abv}
+                    <li>Description:</li>{item.description}
 
 
 

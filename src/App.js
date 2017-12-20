@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import Blond from "./Blond";
 import Amber from "./Amber";
 import Brown from "./Brown";
+import Header from "./Header";
 import logo from './logo.svg';
+import beers from './beers.jpg';
 import './App.css';
 import './index.css';
 import {
@@ -12,14 +14,19 @@ import {
 } from "react-router-dom";
 
 
-
 class App extends Component {
 
   render() {
+
     return (
+
+
       <HashRouter>
+
         <div>
-          <h1>BEERS WEB</h1>
+
+
+
           <ul className="header">
             <li><NavLink exact to="/">Blond Beers</NavLink></li>
             <li><NavLink to="/Amber">Amber Beers</NavLink></li>
@@ -37,4 +44,4 @@ class App extends Component {
 }
 
 
-export default App
+export default App;
